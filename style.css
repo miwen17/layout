@@ -1,9 +1,9 @@
 html {
-    background-color: antiquewhite;
+    background-color: #333;
 }
 
 .judul {
-  background-color: #666;
+  background-image: linear-gradient(to left top, rgb(45, 96, 192),rgb(39, 221, 136) );
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -60,11 +60,11 @@ ul {
   position: sticky;
   top: 0;
   left: 0;
+  background-image: linear-gradient(to bottom left, rgb(45, 96, 192),rgb(39, 221, 136) );
 }
 
 li {
   float: left;
-  border-right:1px solid #333;
 }
 
 li a {
@@ -76,11 +76,14 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: rgba(220, 235, 255, 0.603);
+  color: black;
+  border-radius: 5%;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #248d61;
+  opacity: 80%;
 }
 
 .all {
