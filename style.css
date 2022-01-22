@@ -1,9 +1,9 @@
 html {
-    background-color: #333;
+    background-color: rgb(146, 175, 175);
 }
 
 .judul {
-  background-image: linear-gradient(to left top, rgb(45, 96, 192),rgb(39, 221, 136) );
+  background-image: linear-gradient(to bottom, rgb(92, 92, 99),rgb(118, 148, 148) );
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -12,6 +12,7 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
+  font-family: Calibri;
 }
 
 .isi {
@@ -21,8 +22,9 @@ html {
 
 .isi {
   flex: 1;
-  background: #ccc;
-  padding: 20px;
+  background: rgb(146, 175, 175);
+  padding: 30px;
+  font-family: Calibri;
 }
 
 
@@ -32,12 +34,16 @@ html {
 
 
 .judulisi {
-  background: #ccc;
-  padding: 10px;
+  background: rgb(146, 175, 175);
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  display: block;
 }
 
 .penutup {
   background-color: #666;
+  background-image: linear-gradient(to top, rgb(82, 82, 83),rgb(118, 148, 148) );
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -60,7 +66,7 @@ ul {
   position: sticky;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to bottom left, rgb(45, 96, 192),rgb(39, 221, 136) );
+  background-image: linear-gradient(to top, #ccc,);
 }
 
 li {
@@ -76,14 +82,14 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: rgba(220, 235, 255, 0.603);
-  color: black;
+  background-color: rgba(175, 175, 175, 0.616);
+  color: rgb(0, 0, 0);
+  opacity: 100%;
   border-radius: 5%;
 }
 
 .active {
-  background-color: #248d61;
-  opacity: 80%;
+  background-color: #29d48d;
 }
 
 .all {
